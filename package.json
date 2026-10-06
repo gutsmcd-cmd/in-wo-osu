@@ -1,0 +1,22 @@
+{
+  "name": "in-wo-osu",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "印を押す (Stamp & Sign) — put your hanko or signature on a PDF or photo, in the browser.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.4.299"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vite-plugin-pwa": "0.21.2"
+  }
+}
